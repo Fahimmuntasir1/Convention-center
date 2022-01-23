@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -11,6 +11,23 @@ body{
     border-radius: 5px;
     padding: 8px 25px;
 }
-.card li{
-    list-style: none;
+.card{
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    transition: .5s;
+}
+.card:hover{
+    background-color: #1863d3;
+    color: white;
+}
+
+.card-btn{
+    background-color: #ffffff;
+    color: #3F87F5;
+    border: 1px solid #1863d3;
+    font-size: small;
+    border-radius: 30px;
+    padding: 13px 60px;
+    margin: 5px 0 10px 0;
 }

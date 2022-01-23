@@ -3,6 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.banner-img{
+    background-image: url("images/banner.png");
+}
 .banner-btn{
     background-color: #fff;
     border: none;

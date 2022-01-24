@@ -34,3 +34,7 @@ body{
     padding: 13px 60px;
     margin: 5px 0 10px 0;
 }
+.my-color{
+    background-color: rgba(70, 140, 206, 0.123);
+    color: rgba(0, 0, 0, 0.753);
+}
